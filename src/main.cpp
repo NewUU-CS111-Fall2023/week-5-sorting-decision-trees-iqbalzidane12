@@ -5,17 +5,19 @@
  */
 
 #include <iostream>
-#include "task_1.h"
-
+#include "problem_1.h"
+#include "problem_2.h"
+#include "problem_3.h"
+#include "problem_4.h"
 int main() {
     std::cout << "Task 1" << std::endl;
-    // call for task 1
+    problem_1()
     std::cout << "Task 2" << std::endl;
-    // call for task 2
+    problem_2()
     std::cout << "Task 3" << std::endl;
-    // call for task 3
+    problem_3()
     std::cout << "Task 4" << std::endl;
-    // call for task 4
+    problem_4()
     std::cout << "Task 5" << std::endl;
     // call for task 5
     return 0;
